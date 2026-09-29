@@ -1,0 +1,24 @@
+{
+  "interface": {
+    "displayName": "Chatbotta",
+    "shortDescription": "LINE 官方帳號串接與訊息測試",
+    "longDescription": "先用 Chatbotta MCP 查詢工作區並確認目標專案，再設定 LINE Messaging API、驗證 token 與 Webhook，並部署 Chatbotta 對話流程。完成後提供加入好友連結，請客戶傳送測試訊息，再到聊天室核對是否收到訊息及機器人回覆。Codex 使用內建 Browser 操作 LINE 官方網站。",
+    "developerName": "Chatbotta",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "defaultPrompt": "請連接指定 LINE 官方帳號與 Chatbotta 專案，先用 Chatbotta MCP 驗證帳號及專案，再設定 token、Webhook、部署現有流程，最後提供好友連結並引導我傳送測試訊息，確認聊天室的收訊與回覆。",
+    "composerIcon": "./assets/chatbotta-icon.png",
+    "logo": "./assets/chatbotta-logo.png"
+  },
+  "name": "chatbotta",
+  "version": "0.2.6",
+  "description": "以 Chatbotta MCP 核對目標專案，連接 LINE 官方帳號並驗證 token、Webhook 與流程部署，最後引導傳送測試訊息。",
+  "author": {
+    "name": "Chatbotta"
+  },
+  "keywords": [],
+  "skills": "./skills",
+  "mcpServers": "./.mcp.json"
+}

@@ -9,7 +9,7 @@
   "plugins": [
     {
       "name": "chatbotta",
-      "source": "./plugins/chatbotta",
+      "source": "./plugins/claude/chatbotta",
       "description": "連接 Chatbotta，查詢專案、頻道設定與部署狀態。",
       "category": "productivity"
     }

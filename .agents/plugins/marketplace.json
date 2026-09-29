@@ -1,0 +1,20 @@
+{
+  "name": "chatbotta-plugins",
+  "interface": {
+    "displayName": "Chatbotta"
+  },
+  "plugins": [
+    {
+      "name": "chatbotta",
+      "source": {
+        "source": "local",
+        "path": "./plugins/codex/chatbotta"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

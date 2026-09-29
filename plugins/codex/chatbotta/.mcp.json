@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "chatbotta": {
+      "type": "streamable-http",
+      "url": "https://api.chatbotta.com/mcp",
+      "headers": {}
+    }
+  }
+}
