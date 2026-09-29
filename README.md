@@ -4,7 +4,7 @@
 
 | 宿主 | 外掛 | 功能 |
 |---|---|---|
-| Claude（網頁版、桌面版、Cowork） | [`plugins/claude/chatbotta`](plugins/claude/chatbotta) | 查詢專案、檢查 LINE 頻道設定與流程部署狀態 |
+| Claude（網頁版、桌面版、Cowork） | [`plugins/claude/chatbotta`](plugins/claude/chatbotta) | 查詢專案狀態；引導串接 LINE 官方帳號（有 Claude in Chrome 時可代為操作網頁） |
 | Codex | [`plugins/codex/chatbotta`](plugins/codex/chatbotta) | 以內建 Browser 引導 LINE 官方帳號串接、驗證並測試收發 |
 
 ## 安裝：Claude
