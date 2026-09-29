@@ -1,0 +1,5 @@
+{
+  "mcpServers": {
+    "chatbotta": { "type": "http", "url": "https://api.chatbotta.com/mcp" }
+  }
+}

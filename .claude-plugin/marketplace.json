@@ -1,0 +1,17 @@
+{
+  "name": "chatbotta",
+  "owner": {
+    "name": "Chatbotta"
+  },
+  "metadata": {
+    "description": "Chatbotta（創易聊）官方 Claude 外掛"
+  },
+  "plugins": [
+    {
+      "name": "chatbotta",
+      "source": "./plugins/chatbotta",
+      "description": "連接 Chatbotta，查詢專案、頻道設定與部署狀態。",
+      "category": "productivity"
+    }
+  ]
+}

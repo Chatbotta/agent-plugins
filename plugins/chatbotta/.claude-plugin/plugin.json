@@ -1,0 +1,10 @@
+{
+  "name": "chatbotta",
+  "version": "0.1.0",
+  "description": "連接 Chatbotta，查詢專案、頻道設定與部署狀態。",
+  "author": {
+    "name": "Chatbotta"
+  },
+  "homepage": "https://chatbotta.com",
+  "repository": "https://github.com/Chatbotta/claude-plugins"
+}
